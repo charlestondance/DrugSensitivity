@@ -5,6 +5,7 @@ import csv
 LAST_DEST_ITERATOR = 289
 
 CONC_A = [25.0, 2.5, 25.0, 2.5, 25.0]
+CONC_B = [25.0, 7.5, 2.5, 25.0, 7.5]
 
 DMSO_WELLS = ['C3', 'H4', 'L4', 'F12', 'H12', 'L12', 'E17', 'J20']
 DMSO_SOURCE = 'A8'
@@ -13,7 +14,7 @@ CONTROL_SOURCE = 'A24'
 COPIES = 5
 sourceplates_filename = 'sourceplates_big.csv'
 output_filename = 'Echo_Cherry_pick.csv'
-hitlist_filename = 'sourceplates_big.csv'
+hitlist_filename = 'hitlist.csv'
 
 class Compound:
 
